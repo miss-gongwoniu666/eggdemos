@@ -1,1 +1,28 @@
 2019-11-24 10:09:39,989 INFO 3108 [egg-logrotator] agent logger reload: got log-reload message
+2019-11-24 10:52:56,597 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 280598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 11:07:30,279 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 613113ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 11:40:29,830 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 439243ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+

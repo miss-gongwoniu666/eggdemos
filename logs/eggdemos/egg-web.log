@@ -1,1 +1,5 @@
 2019-11-24 10:09:39,984 INFO 3126 [egg-logrotator] app logger reload: got log-reload message
+2019-11-24 10:52:56,597 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 11:07:30,279 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-24 11:07:30,279 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 11:40:29,830 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
