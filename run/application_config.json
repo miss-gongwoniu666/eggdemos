@@ -105,6 +105,7 @@
         "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
         "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-static@2.2.0@egg-static/config/locales",
         "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/locales",
+        "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/locales",
         "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/locales",
         "/Users/gongjurui/winiu/eggdemos/config/locales"
       ],
@@ -171,11 +172,22 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/gongjurui/winiu/eggdemos/app/view",
+      "root": [
+        "/Users/gongjurui/winiu/eggdemos/app/view"
+      ],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "eggdemos",
@@ -198,7 +210,8 @@
       "author": "",
       "license": "ISC",
       "dependencies": {
-        "egg": "^2.25.0"
+        "egg": "^2.25.0",
+        "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
         "egg-bin": "^4.14.0"
@@ -306,6 +319,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares",
@@ -468,6 +485,20 @@
       "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
       "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/gongjurui/winiu/eggdemos/config/plugin.js",
+      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }

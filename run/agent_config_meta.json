@@ -1,5 +1,14 @@
 {
   "keys": "/Users/gongjurui/winiu/eggdemos/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/gongjurui/winiu/eggdemos/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/gongjurui/winiu/eggdemos/config/config.default.js"
+    },
+    "root": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
     "key": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
@@ -137,12 +146,12 @@
     "buffer": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
     "maxFiles": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
   },
-  "view": {
-    "root": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "cache": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
-    "defaultExtension": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "mapping": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  "nunjucks": {
+    "autoescape": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.local.js"
   },
   "env": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
   "name": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
@@ -164,7 +173,8 @@
     "author": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "license": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "dependencies": {
-      "egg": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "egg": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js"

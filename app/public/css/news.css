@@ -1,0 +1,17 @@
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.news-view {
+  width: auto;
+  height: auto;
+  border: 1px solid red;
+}
+.news-view li {
+  line-height: 1.5;
+  border-bottom: 1px dashed yellow;
+  color: #333;
+  font-weight: bold;
+  background: pink;
+}
