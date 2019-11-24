@@ -235,3 +235,63 @@
 2019-11-24 15:32:52,979 INFO 5814 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
 2019-11-24 15:32:52,979 INFO 5814 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2019-11-24 15:32:52,979 INFO 5814 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 19:24:41,656 INFO 7647 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32718346ms at 2019-11-25 04:30:00.002
+2019-11-24 19:24:41,657 INFO 7647 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 16518344ms at 2019-11-25 00:00:00.001
+2019-11-24 19:24:41,657 INFO 7647 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16519343ms at 2019-11-25 00:00:01.000
+2019-11-24 19:24:41,569 INFO 7648 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 19:24:41,569 INFO 7648 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 19:24:41,569 INFO 7648 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 20:42:38,819 INFO 7818 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 28041183ms at 2019-11-25 04:30:00.002
+2019-11-24 20:42:38,820 INFO 7818 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 11841181ms at 2019-11-25 00:00:00.001
+2019-11-24 20:42:38,820 INFO 7818 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11842180ms at 2019-11-25 00:00:01.000
+2019-11-24 20:42:38,691 INFO 7819 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 20:42:38,691 INFO 7819 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 20:42:38,691 INFO 7819 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:29:01,575 INFO 7936 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:29:01,575 INFO 7936 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:29:01,575 INFO 7936 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:32:48,957 INFO 7944 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:32:48,957 INFO 7944 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:32:48,957 INFO 7944 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:35:35,388 INFO 7950 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:35:35,388 INFO 7950 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:35:35,388 INFO 7950 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:36:44,595 INFO 7953 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:36:44,596 INFO 7953 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:36:44,596 INFO 7953 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:37:30,416 INFO 7958 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:37:30,416 INFO 7958 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:37:30,416 INFO 7958 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:51:18,001 INFO 8278 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:51:18,001 INFO 8278 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:51:18,001 INFO 8278 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:51:18,117 INFO 8277 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23921886ms at 2019-11-25 04:30:00.003
+2019-11-24 21:51:18,117 INFO 8277 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7721883ms at 2019-11-25 00:00:00.000
+2019-11-24 21:51:18,118 INFO 8277 [Timer] /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7722883ms at 2019-11-25 00:00:01.001
+2019-11-24 21:52:41,552 INFO 8314 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:52:41,552 INFO 8314 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:52:41,552 INFO 8314 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:53:08,042 INFO 8321 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:53:08,043 INFO 8321 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:53:08,043 INFO 8321 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:53:23,257 INFO 8328 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:53:23,257 INFO 8328 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:53:23,257 INFO 8328 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:54:09,681 INFO 8343 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:54:09,681 INFO 8343 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:54:09,681 INFO 8343 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:54:28,552 INFO 8351 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:54:28,553 INFO 8351 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:54:28,553 INFO 8351 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:54:44,713 INFO 8356 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:54:44,713 INFO 8356 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:54:44,713 INFO 8356 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:55:24,882 INFO 8370 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:55:24,882 INFO 8370 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:55:24,882 INFO 8370 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 21:55:41,584 INFO 8372 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 21:55:41,584 INFO 8372 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 21:55:41,584 INFO 8372 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-24 22:00:16,332 INFO 8379 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-24 22:00:16,332 INFO 8379 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-11-24 22:00:16,332 INFO 8379 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

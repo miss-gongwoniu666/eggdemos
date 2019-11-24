@@ -1,5 +1,9 @@
 {
   "keys": "/Users/gongjurui/winiu/eggdemos/config/config.default.js",
+  "news": {
+    "pageSize": "/Users/gongjurui/winiu/eggdemos/config/config.default.js",
+    "serverUrl": "/Users/gongjurui/winiu/eggdemos/config/config.default.js"
+  },
   "view": {
     "defaultViewEngine": "/Users/gongjurui/winiu/eggdemos/config/config.default.js",
     "mapping": {
@@ -9,9 +13,9 @@
     "cache": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
     "defaultExtension": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
   },
-  "news": {
-    "pageSize": "/Users/gongjurui/winiu/eggdemos/config/config.default.js",
-    "serverUrl": "/Users/gongjurui/winiu/eggdemos/config/config.default.js"
+  "middleware": "/Users/gongjurui/winiu/eggdemos/config/config.default.js",
+  "gzip": {
+    "threshold": "/Users/gongjurui/winiu/eggdemos/config/config.default.js"
   },
   "session": {
     "maxAge": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
@@ -177,8 +181,13 @@
     "author": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "license": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "dependencies": {
+      "co": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
       "egg": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "egg-view-nunjucks": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "egg-view-nunjucks": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "graceful-process": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "koa-is-json": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "yargs-parser": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "zlib": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/config.default.js"

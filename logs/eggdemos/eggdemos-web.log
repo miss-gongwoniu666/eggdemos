@@ -363,3 +363,63 @@ hostname: gongjuruideMacBook-Pro-2.local
 pid: 5432
 hostname: gongjuruideMacBook-Pro-2.local
 
+2019-11-24 21:51:27,772 ERROR 8278 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:51:55,512 ERROR 8278 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:51:56,728 ERROR 8278 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:52:01,330 ERROR 8278 [-/127.0.0.1/-/1ms GET /news] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+

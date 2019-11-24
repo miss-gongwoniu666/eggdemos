@@ -399,3 +399,126 @@ hostname: gongjuruideMacBook-Pro-2.local
 pid: 5432
 hostname: gongjuruideMacBook-Pro-2.local
 
+2019-11-24 19:40:46,442 ERROR 7647 nodejs.ClusterClientNoResponseError: client no response in 748195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7647
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 19:58:50,890 ERROR 7647 nodejs.ClusterClientNoResponseError: client no response in 999735ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7647
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 20:41:38,495 ERROR 7647 nodejs.ClusterClientNoResponseError: client no response in 125153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7647
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:10:39,578 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 96318ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:21:02,104 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 97166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:25:26,684 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 88165ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:27:06,897 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 60195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:51:27,771 ERROR 8278 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:51:55,511 ERROR 8278 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:51:56,727 ERROR 8278 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:52:01,329 ERROR 8278 [-/127.0.0.1/-/1ms GET /news] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/gongjurui/winiu/eggdemos/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 8278
+hostname: gongjuruideMacBook-Pro-2.local
+

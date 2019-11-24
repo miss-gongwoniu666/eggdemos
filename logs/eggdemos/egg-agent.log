@@ -352,3 +352,129 @@ hostname: gongjuruideMacBook-Pro-2.local
 2019-11-24 15:32:52,289 WARN 4796 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/app/controller/home.js change
 2019-11-24 15:32:52,087 INFO 4796 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5710775,"size":278,"blocks":8,"atimeMs":1574580772074.485,"mtimeMs":1574580772074.9143,"ctimeMs":1574580772074.9143,"birthtimeMs":1574513280290.3787,"atime":"2019-11-24T07:32:52.074Z","mtime":"2019-11-24T07:32:52.075Z","ctime":"2019-11-24T07:32:52.075Z","birthtime":"2019-11-23T12:48:00.290Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-11-24 15:33:20,773 INFO 4796 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/app/view/index.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5779989,"size":145,"blocks":8,"atimeMs":1574580800711.3381,"mtimeMs":1574580800711.8574,"ctimeMs":1574580800711.8574,"birthtimeMs":1574580620871.9265,"atime":"2019-11-24T07:33:20.711Z","mtime":"2019-11-24T07:33:20.712Z","ctime":"2019-11-24T07:33:20.712Z","birthtime":"2019-11-24T07:30:20.872Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 19:24:40,799 INFO 7647 [egg:logger] init all loggers with options: {"dir":"/Users/gongjurui/winiu/eggdemos/logs/eggdemos","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemos-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-24 19:24:40,808 INFO 7647 [egg:core] dump config after load, 5ms
+2019-11-24 19:24:40,847 INFO 7647 [egg-watcher] Start watching: ["/Users/gongjurui/winiu/eggdemos/app","/Users/gongjurui/winiu/eggdemos/config","/Users/gongjurui/winiu/eggdemos/mocks","/Users/gongjurui/winiu/eggdemos/mocks_proxy","/Users/gongjurui/winiu/eggdemos/app.js"]
+2019-11-24 19:24:40,847 INFO 7647 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app"
+2019-11-24 19:24:40,847 INFO 7647 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/config"
+2019-11-24 19:24:40,847 INFO 7647 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks"
+2019-11-24 19:24:40,847 INFO 7647 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks_proxy"
+2019-11-24 19:24:40,848 INFO 7647 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app.js"
+2019-11-24 19:24:40,848 INFO 7647 [egg-watcher:agent] watcher start success
+2019-11-24 19:24:40,886 INFO 7647 [egg:core] dump config after ready, 4ms
+2019-11-24 19:40:46,443 ERROR 7647 nodejs.ClusterClientNoResponseError: client no response in 748195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7647
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 19:58:50,890 ERROR 7647 nodejs.ClusterClientNoResponseError: client no response in 999735ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7647
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 20:41:38,496 ERROR 7647 nodejs.ClusterClientNoResponseError: client no response in 125153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7647
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 20:42:37,857 INFO 7818 [egg:logger] init all loggers with options: {"dir":"/Users/gongjurui/winiu/eggdemos/logs/eggdemos","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemos-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-24 20:42:37,866 INFO 7818 [egg:core] dump config after load, 4ms
+2019-11-24 20:42:37,913 INFO 7818 [egg-watcher] Start watching: ["/Users/gongjurui/winiu/eggdemos/app","/Users/gongjurui/winiu/eggdemos/config","/Users/gongjurui/winiu/eggdemos/mocks","/Users/gongjurui/winiu/eggdemos/mocks_proxy","/Users/gongjurui/winiu/eggdemos/app.js"]
+2019-11-24 20:42:37,913 INFO 7818 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app"
+2019-11-24 20:42:37,914 INFO 7818 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/config"
+2019-11-24 20:42:37,914 INFO 7818 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks"
+2019-11-24 20:42:37,914 INFO 7818 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks_proxy"
+2019-11-24 20:42:37,914 INFO 7818 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app.js"
+2019-11-24 20:42:37,914 INFO 7818 [egg-watcher:agent] watcher start success
+2019-11-24 20:42:37,935 INFO 7818 [egg:core] dump config after ready, 3ms
+2019-11-24 21:10:39,585 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 96318ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:21:02,104 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 97166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:25:26,684 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 88165ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:27:06,898 ERROR 7818 nodejs.ClusterClientNoResponseError: client no response in 60195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7818
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 21:28:51,273 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/middleware","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5855106,"size":64,"blocks":0,"atimeMs":1574602131270.9321,"mtimeMs":1574602131209.547,"ctimeMs":1574602131209.547,"birthtimeMs":1574602131209.547,"atime":"2019-11-24T13:28:51.271Z","mtime":"2019-11-24T13:28:51.210Z","ctime":"2019-11-24T13:28:51.210Z","birthtime":"2019-11-24T13:28:51.210Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-11-24 21:28:59,813 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5855108,"size":0,"blocks":0,"atimeMs":1574602139802.657,"mtimeMs":1574602139802.657,"ctimeMs":1574602139802.657,"birthtimeMs":1574602139802.657,"atime":"2019-11-24T13:28:59.803Z","mtime":"2019-11-24T13:28:59.803Z","ctime":"2019-11-24T13:28:59.803Z","birthtime":"2019-11-24T13:28:59.803Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:29:00,014 WARN 7818 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js rename
+2019-11-24 21:32:47,677 WARN 7818 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js change
+2019-11-24 21:32:47,472 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5855108,"size":601,"blocks":8,"atimeMs":1574602367410.6135,"mtimeMs":1574602367411.0315,"ctimeMs":1574602367411.0315,"birthtimeMs":1574602139802.657,"atime":"2019-11-24T13:32:47.411Z","mtime":"2019-11-24T13:32:47.411Z","ctime":"2019-11-24T13:32:47.411Z","birthtime":"2019-11-24T13:28:59.803Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:35:34,139 WARN 7818 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:35:33,938 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":236,"blocks":8,"atimeMs":1574602533872.9097,"mtimeMs":1574602533875.6143,"ctimeMs":1574602533875.6143,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:35:33.873Z","mtime":"2019-11-24T13:35:33.876Z","ctime":"2019-11-24T13:35:33.876Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:36:43,643 WARN 7818 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:36:43,442 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":299,"blocks":8,"atimeMs":1574602603381.0466,"mtimeMs":1574602603381.3245,"ctimeMs":1574602603381.3245,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:36:43.381Z","mtime":"2019-11-24T13:36:43.381Z","ctime":"2019-11-24T13:36:43.381Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:37:29,736 WARN 7818 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:37:29,534 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":314,"blocks":8,"atimeMs":1574602649469.9436,"mtimeMs":1574602649472.7024,"ctimeMs":1574602649472.7024,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:37:29.470Z","mtime":"2019-11-24T13:37:29.473Z","ctime":"2019-11-24T13:37:29.473Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:42:22,128 WARN 7818 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js change
+2019-11-24 21:42:21,927 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5855108,"size":656,"blocks":8,"atimeMs":1574602941865.8489,"mtimeMs":1574602941866.137,"ctimeMs":1574602941866.137,"birthtimeMs":1574602139802.657,"atime":"2019-11-24T13:42:21.866Z","mtime":"2019-11-24T13:42:21.866Z","ctime":"2019-11-24T13:42:21.866Z","birthtime":"2019-11-24T13:28:59.803Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:42:42,682 INFO 7818 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5855108,"size":676,"blocks":8,"atimeMs":1574602962619.4922,"mtimeMs":1574602962619.7356,"ctimeMs":1574602962619.7356,"birthtimeMs":1574602139802.657,"atime":"2019-11-24T13:42:42.619Z","mtime":"2019-11-24T13:42:42.620Z","ctime":"2019-11-24T13:42:42.620Z","birthtime":"2019-11-24T13:28:59.803Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:42:42,884 WARN 7818 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js change
+2019-11-24 21:51:16,973 INFO 8277 [egg:logger] init all loggers with options: {"dir":"/Users/gongjurui/winiu/eggdemos/logs/eggdemos","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemos-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-24 21:51:16,987 INFO 8277 [egg:core] dump config after load, 7ms
+2019-11-24 21:51:17,039 INFO 8277 [egg-watcher] Start watching: ["/Users/gongjurui/winiu/eggdemos/app","/Users/gongjurui/winiu/eggdemos/config","/Users/gongjurui/winiu/eggdemos/mocks","/Users/gongjurui/winiu/eggdemos/mocks_proxy","/Users/gongjurui/winiu/eggdemos/app.js"]
+2019-11-24 21:51:17,039 INFO 8277 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app"
+2019-11-24 21:51:17,040 INFO 8277 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/config"
+2019-11-24 21:51:17,040 INFO 8277 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks"
+2019-11-24 21:51:17,040 INFO 8277 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks_proxy"
+2019-11-24 21:51:17,040 INFO 8277 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app.js"
+2019-11-24 21:51:17,040 INFO 8277 [egg-watcher:agent] watcher start success
+2019-11-24 21:51:17,073 INFO 8277 [egg:core] dump config after ready, 5ms
+2019-11-24 21:52:40,490 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:52:40,283 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":565,"blocks":8,"atimeMs":1574603560222.3672,"mtimeMs":1574603560222.6724,"ctimeMs":1574603560222.6724,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:52:40.222Z","mtime":"2019-11-24T13:52:40.223Z","ctime":"2019-11-24T13:52:40.223Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:53:06,953 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:53:06,752 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":692,"blocks":8,"atimeMs":1574603586690.5073,"mtimeMs":1574603586690.8489,"ctimeMs":1574603586690.8489,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:53:06.691Z","mtime":"2019-11-24T13:53:06.691Z","ctime":"2019-11-24T13:53:06.691Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:53:22,385 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:53:22,181 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":439,"blocks":8,"atimeMs":1574603602118.299,"mtimeMs":1574603602120.245,"ctimeMs":1574603602120.245,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:53:22.118Z","mtime":"2019-11-24T13:53:22.120Z","ctime":"2019-11-24T13:53:22.120Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:54:08,645 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:54:08,441 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":453,"blocks":8,"atimeMs":1574603648388.9514,"mtimeMs":1574603648389.278,"ctimeMs":1574603648389.278,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:54:08.389Z","mtime":"2019-11-24T13:54:08.389Z","ctime":"2019-11-24T13:54:08.389Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:54:27,845 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:54:27,644 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":461,"blocks":8,"atimeMs":1574603667581.6155,"mtimeMs":1574603667581.9307,"ctimeMs":1574603667581.9307,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:54:27.582Z","mtime":"2019-11-24T13:54:27.582Z","ctime":"2019-11-24T13:54:27.582Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:54:44,034 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:54:43,833 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":461,"blocks":8,"atimeMs":1574603683768.855,"mtimeMs":1574603683770.7761,"ctimeMs":1574603683770.7761,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:54:43.769Z","mtime":"2019-11-24T13:54:43.771Z","ctime":"2019-11-24T13:54:43.771Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:55:24,156 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:55:23,955 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":471,"blocks":8,"atimeMs":1574603723893.1284,"mtimeMs":1574603723893.809,"ctimeMs":1574603723893.809,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:55:23.893Z","mtime":"2019-11-24T13:55:23.894Z","ctime":"2019-11-24T13:55:23.894Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 21:55:40,961 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/config/config.default.js change
+2019-11-24 21:55:40,759 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5828626,"size":494,"blocks":8,"atimeMs":1574603740697.964,"mtimeMs":1574603740698.3083,"ctimeMs":1574603740698.3083,"birthtimeMs":1574594638061.698,"atime":"2019-11-24T13:55:40.698Z","mtime":"2019-11-24T13:55:40.698Z","ctime":"2019-11-24T13:55:40.698Z","birthtime":"2019-11-24T11:23:58.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-24 22:00:15,741 WARN 8277 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js change
+2019-11-24 22:00:15,540 INFO 8277 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/app/middleware/gzip.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5855108,"size":614,"blocks":8,"atimeMs":1574604015478.9934,"mtimeMs":1574604015479.373,"ctimeMs":1574604015479.373,"birthtimeMs":1574602139802.657,"atime":"2019-11-24T14:00:15.479Z","mtime":"2019-11-24T14:00:15.479Z","ctime":"2019-11-24T14:00:15.479Z","birthtime":"2019-11-24T13:28:59.803Z"},"remove":false,"isDirectory":false,"isFile":true}

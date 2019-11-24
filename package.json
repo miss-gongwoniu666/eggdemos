@@ -10,8 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "co": "^4.6.0",
     "egg": "^2.25.0",
-    "egg-view-nunjucks": "^2.2.0"
+    "egg-view-nunjucks": "^2.2.0",
+    "graceful-process": "^1.2.0",
+    "koa-is-json": "^1.0.0",
+    "yargs-parser": "^16.1.0",
+    "zlib": "^1.0.5"
   },
   "devDependencies": {
     "egg-bin": "^4.14.0"
