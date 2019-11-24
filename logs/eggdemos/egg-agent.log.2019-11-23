@@ -1,0 +1,207 @@
+2019-11-23 21:04:53,682 INFO 3108 [egg:logger] init all loggers with options: {"dir":"/Users/gongjurui/winiu/eggdemos/logs/eggdemos","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemos-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-23 21:04:53,693 INFO 3108 [egg:core] dump config after load, 5ms
+2019-11-23 21:04:53,739 INFO 3108 [egg-watcher] Start watching: ["/Users/gongjurui/winiu/eggdemos/app","/Users/gongjurui/winiu/eggdemos/config","/Users/gongjurui/winiu/eggdemos/mocks","/Users/gongjurui/winiu/eggdemos/mocks_proxy","/Users/gongjurui/winiu/eggdemos/app.js"]
+2019-11-23 21:04:53,739 INFO 3108 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app"
+2019-11-23 21:04:53,740 INFO 3108 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/config"
+2019-11-23 21:04:53,740 INFO 3108 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks"
+2019-11-23 21:04:53,740 INFO 3108 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/mocks_proxy"
+2019-11-23 21:04:53,740 INFO 3108 [egg-watcher] Start watching: "/Users/gongjurui/winiu/eggdemos/app.js"
+2019-11-23 21:04:53,741 INFO 3108 [egg-watcher:agent] watcher start success
+2019-11-23 21:04:53,761 INFO 3108 [egg:core] dump config after ready, 3ms
+2019-11-23 21:04:54,399 INFO 3108 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5711009,"size":64,"blocks":0,"atimeMs":1574514294386.634,"mtimeMs":1574514294386.634,"ctimeMs":1574514294386.634,"birthtimeMs":1574514294386.634,"atime":"2019-11-23T13:04:54.387Z","mtime":"2019-11-23T13:04:54.387Z","ctime":"2019-11-23T13:04:54.387Z","birthtime":"2019-11-23T13:04:54.387Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-11-23 21:12:03,456 WARN 3108 [agent:development] reload worker because /Users/gongjurui/winiu/eggdemos/app/controller/home.js change
+2019-11-23 21:12:03,254 INFO 3108 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/gongjurui/winiu/eggdemos/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5710775,"size":235,"blocks":8,"atimeMs":1574514723192.381,"mtimeMs":1574514723192.6555,"ctimeMs":1574514723192.6555,"birthtimeMs":1574513280290.3787,"atime":"2019-11-23T13:12:03.192Z","mtime":"2019-11-23T13:12:03.193Z","ctime":"2019-11-23T13:12:03.193Z","birthtime":"2019-11-23T12:48:00.290Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-23 21:12:23,571 INFO 3108 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/public/css","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5711178,"size":64,"blocks":0,"atimeMs":1574514743570.5703,"mtimeMs":1574514743509.269,"ctimeMs":1574514743509.269,"birthtimeMs":1574514743509.269,"atime":"2019-11-23T13:12:23.571Z","mtime":"2019-11-23T13:12:23.509Z","ctime":"2019-11-23T13:12:23.509Z","birthtime":"2019-11-23T13:12:23.509Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-11-23 21:12:29,477 INFO 3108 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/public/css/news.css","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5711182,"size":0,"blocks":0,"atimeMs":1574514749467.037,"mtimeMs":1574514749467.037,"ctimeMs":1574514749467.037,"birthtimeMs":1574514749467.037,"atime":"2019-11-23T13:12:29.467Z","mtime":"2019-11-23T13:12:29.467Z","ctime":"2019-11-23T13:12:29.467Z","birthtime":"2019-11-23T13:12:29.467Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-23 21:12:35,759 INFO 3108 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/public/js","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5711189,"size":64,"blocks":0,"atimeMs":1574514755748.887,"mtimeMs":1574514755748.887,"ctimeMs":1574514755748.887,"birthtimeMs":1574514755748.887,"atime":"2019-11-23T13:12:35.749Z","mtime":"2019-11-23T13:12:35.749Z","ctime":"2019-11-23T13:12:35.749Z","birthtime":"2019-11-23T13:12:35.749Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-11-23 21:12:42,624 INFO 3108 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/public/js/lib.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5711191,"size":0,"blocks":0,"atimeMs":1574514762614.0679,"mtimeMs":1574514762614.0679,"ctimeMs":1574514762614.0679,"birthtimeMs":1574514762614.0679,"atime":"2019-11-23T13:12:42.614Z","mtime":"2019-11-23T13:12:42.614Z","ctime":"2019-11-23T13:12:42.614Z","birthtime":"2019-11-23T13:12:42.614Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-23 21:12:47,733 INFO 3108 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/gongjurui/winiu/eggdemos/app/public/js/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5711194,"size":0,"blocks":0,"atimeMs":1574514767722.2292,"mtimeMs":1574514767722.2292,"ctimeMs":1574514767722.2292,"birthtimeMs":1574514767722.2292,"atime":"2019-11-23T13:12:47.722Z","mtime":"2019-11-23T13:12:47.722Z","ctime":"2019-11-23T13:12:47.722Z","birthtime":"2019-11-23T13:12:47.722Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-23 22:09:17,450 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1345294ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-23 22:25:17,621 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 920153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-23 22:44:17,003 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1119368ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-23 23:06:36,840 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1299946ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-23 23:37:11,682 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1794823ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 00:07:15,485 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1763782ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 00:31:36,096 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1440594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 01:03:51,907 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1895788ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 01:34:23,923 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1791993ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 01:51:25,424 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1001488ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 02:25:56,836 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 2031392ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 02:57:33,280 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1856429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 04:40:15,112 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 2020917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 05:22:53,830 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 2178580ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 06:38:07,468 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 2833239ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 07:19:57,275 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 2489789ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 08:06:17,308 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 2740010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 08:52:06,714 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 821817ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 09:22:25,930 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 1779194ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 09:25:20,320 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 93163ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+
+2019-11-24 10:08:35,617 ERROR 3108 nodejs.ClusterClientNoResponseError: client no response in 134209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/winiu/eggdemos/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 3108
+hostname: gongjuruideMacBook-Pro-2.local
+

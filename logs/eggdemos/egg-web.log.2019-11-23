@@ -1,0 +1,59 @@
+2019-11-23 21:04:54,277 INFO 3109 [egg:logger] init all loggers with options: {"dir":"/Users/gongjurui/winiu/eggdemos/logs/eggdemos","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemos-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 21:04:54,301 INFO 3109 [egg-multipart] stream mode enable
+2019-11-23 21:04:54,386 INFO 3109 [egg-static] starting static serve /public/ -> /Users/gongjurui/winiu/eggdemos/app/public
+2019-11-23 21:04:54,389 INFO 3109 [egg-security] use csrf middleware
+2019-11-23 21:04:54,390 INFO 3109 [egg-security] use methodnoallow middleware
+2019-11-23 21:04:54,391 INFO 3109 [egg-security] use noopen middleware
+2019-11-23 21:04:54,392 INFO 3109 [egg-security] use nosniff middleware
+2019-11-23 21:04:54,392 INFO 3109 [egg-security] use xssProtection middleware
+2019-11-23 21:04:54,393 INFO 3109 [egg-security] use xframe middleware
+2019-11-23 21:04:54,393 INFO 3109 [egg-security] use dta middleware
+2019-11-23 21:04:54,393 INFO 3109 [egg-security] compose 7 middlewares into one security middleware
+2019-11-23 21:04:54,406 INFO 3109 [egg:core] dump config after load, 7ms
+2019-11-23 21:04:54,424 INFO 3109 [egg-watcher:application] watcher start success
+2019-11-23 21:04:54,430 INFO 3109 [egg:core] dump config after ready, 4ms
+2019-11-23 21:12:03,925 INFO 3126 [egg:logger] init all loggers with options: {"dir":"/Users/gongjurui/winiu/eggdemos/logs/eggdemos","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemos-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 21:12:03,947 INFO 3126 [egg-multipart] stream mode enable
+2019-11-23 21:12:03,985 INFO 3126 [egg-static] starting static serve /public/ -> /Users/gongjurui/winiu/eggdemos/app/public
+2019-11-23 21:12:03,988 INFO 3126 [egg-security] use csrf middleware
+2019-11-23 21:12:03,988 INFO 3126 [egg-security] use methodnoallow middleware
+2019-11-23 21:12:03,989 INFO 3126 [egg-security] use noopen middleware
+2019-11-23 21:12:03,989 INFO 3126 [egg-security] use nosniff middleware
+2019-11-23 21:12:03,989 INFO 3126 [egg-security] use xssProtection middleware
+2019-11-23 21:12:03,990 INFO 3126 [egg-security] use xframe middleware
+2019-11-23 21:12:03,990 INFO 3126 [egg-security] use dta middleware
+2019-11-23 21:12:03,990 INFO 3126 [egg-security] compose 7 middlewares into one security middleware
+2019-11-23 21:12:03,996 INFO 3126 [egg:core] dump config after load, 3ms
+2019-11-23 21:12:04,011 INFO 3126 [egg-watcher:application] watcher start success
+2019-11-23 21:12:04,016 INFO 3126 [egg:core] dump config after ready, 3ms
+2019-11-23 22:09:17,449 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-23 22:25:17,621 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-23 22:44:17,004 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-23 22:44:17,004 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-23 23:06:36,840 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-23 23:37:11,682 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-23 23:37:11,683 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 00:07:15,484 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 00:31:36,096 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 01:03:51,908 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-24 01:03:51,908 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 01:34:23,921 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-24 01:34:23,923 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 01:51:25,424 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 02:25:56,836 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 02:57:33,280 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 04:40:15,112 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 05:22:53,829 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 06:38:07,467 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 07:19:57,274 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 08:06:17,308 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 08:52:06,714 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-24 08:52:06,714 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 09:22:25,929 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-24 09:22:25,930 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 09:25:20,320 WARN 3126 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-24 09:25:20,320 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 10:08:35,615 WARN 3126 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-24 10:09:39,000 INFO 3126 [egg-logrotator] clean all log before 31 days
+2019-11-24 10:09:39,982 INFO 3126 [egg-logrotator] broadcast log-reload
+2019-11-24 10:09:39,982 INFO 3126 [egg-logrotator] rotate files success by DayRotator, files ["/Users/gongjurui/winiu/eggdemos/logs/eggdemos/common-error.log -> /Users/gongjurui/winiu/eggdemos/logs/eggdemos/common-error.log.2019-11-23","/Users/gongjurui/winiu/eggdemos/logs/eggdemos/eggdemos-web.log -> /Users/gongjurui/winiu/eggdemos/logs/eggdemos/eggdemos-web.log.2019-11-23","/Users/gongjurui/winiu/eggdemos/logs/eggdemos/egg-web.log -> /Users/gongjurui/winiu/eggdemos/logs/eggdemos/egg-web.log.2019-11-23","/Users/gongjurui/winiu/eggdemos/logs/eggdemos/egg-schedule.log -> /Users/gongjurui/winiu/eggdemos/logs/eggdemos/egg-schedule.log.2019-11-23","/Users/gongjurui/winiu/eggdemos/logs/eggdemos/egg-agent.log -> /Users/gongjurui/winiu/eggdemos/logs/eggdemos/egg-agent.log.2019-11-23"]
