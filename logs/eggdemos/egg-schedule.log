@@ -295,3 +295,84 @@
 2019-11-24 22:00:16,332 INFO 8379 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart/app/schedule/clean_tmpdir.js
 2019-11-24 22:00:16,332 INFO 8379 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2019-11-24 22:00:16,332 INFO 8379 [egg-schedule]: register schedule /Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 10:26:06,978 INFO 1265 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 10:26:06,978 INFO 1265 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 10:26:06,978 INFO 1265 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 10:26:07,172 INFO 1264 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65032839ms at 2019-11-26 04:30:00.011
+2019-11-25 10:26:07,173 INFO 1264 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48832828ms at 2019-11-26 00:00:00.001
+2019-11-25 10:26:07,173 INFO 1264 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48833827ms at 2019-11-26 00:00:01.000
+2019-11-25 17:24:42,603 INFO 3999 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 17:24:42,603 INFO 3999 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 17:24:42,603 INFO 3999 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 17:24:50,012 INFO 4014 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 17:24:50,012 INFO 4014 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 17:24:50,012 INFO 4014 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 17:25:04,115 INFO 4024 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 17:25:04,116 INFO 4024 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 17:25:04,116 INFO 4024 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 17:25:09,992 INFO 4033 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 17:25:09,992 INFO 4033 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 17:25:09,992 INFO 4033 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 17:25:11,775 INFO 4042 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 17:25:11,775 INFO 4042 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 17:25:11,775 INFO 4042 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 17:31:52,912 INFO 4177 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 17:31:52,912 INFO 4177 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 17:31:52,912 INFO 4177 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 17:49:51,928 INFO 4309 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 17:49:51,928 INFO 4309 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 17:49:51,928 INFO 4309 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:26:46,643 INFO 4402 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:26:46,643 INFO 4402 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:26:46,643 INFO 4402 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:28:59,970 INFO 4469 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:28:59,970 INFO 4469 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:28:59,970 INFO 4469 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:30:10,715 INFO 4525 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:30:10,715 INFO 4525 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:30:10,715 INFO 4525 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:30:10,833 INFO 4524 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35989175ms at 2019-11-26 04:30:00.008
+2019-11-25 18:30:10,833 INFO 4524 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 19789167ms at 2019-11-26 00:00:00.000
+2019-11-25 18:30:10,833 INFO 4524 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 19790167ms at 2019-11-26 00:00:01.000
+2019-11-25 18:30:46,286 INFO 4546 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:30:46,286 INFO 4546 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:30:46,286 INFO 4546 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:31:20,652 INFO 4577 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:31:20,652 INFO 4577 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:31:20,652 INFO 4577 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:31:20,781 INFO 4576 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35919224ms at 2019-11-26 04:30:00.004
+2019-11-25 18:31:20,781 INFO 4576 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 19719219ms at 2019-11-26 00:00:00.000
+2019-11-25 18:31:20,782 INFO 4576 [Timer] /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 19720219ms at 2019-11-26 00:00:01.001
+2019-11-25 18:38:38,097 INFO 4667 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:38:38,097 INFO 4667 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:38:38,097 INFO 4667 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:38:39,520 INFO 4676 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:38:39,520 INFO 4676 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:38:39,520 INFO 4676 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:38:40,659 INFO 4678 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:38:40,659 INFO 4678 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:38:40,659 INFO 4678 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:38:49,983 INFO 4686 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:38:49,983 INFO 4686 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:38:49,983 INFO 4686 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:39:11,772 INFO 4704 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:39:11,772 INFO 4704 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:39:11,772 INFO 4704 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:39:31,166 INFO 4723 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:39:31,166 INFO 4723 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:39:31,166 INFO 4723 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:40:46,916 INFO 4752 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:40:46,916 INFO 4752 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:40:46,916 INFO 4752 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:40:54,338 INFO 4768 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:40:54,338 INFO 4768 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:40:54,338 INFO 4768 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:44:10,986 INFO 4812 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:44:10,986 INFO 4812 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:44:10,986 INFO 4812 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:44:40,658 INFO 4840 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:44:40,658 INFO 4840 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:44:40,658 INFO 4840 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-25 18:45:44,079 INFO 4859 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-25 18:45:44,080 INFO 4859 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-25 18:45:44,080 INFO 4859 [egg-schedule]: register schedule /Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

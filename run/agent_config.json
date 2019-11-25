@@ -75,7 +75,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -88,8 +88,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -112,7 +112,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/6g/k3jryj0j1qjg3h37f_6sl8340000gn/T/egg-multipart-tmp/eggdemos",
+      "tmpdir": "/var/folders/8d/2pj3v86x6fd1rymh3fqr_13r0000gp/T/egg-multipart-tmp/eggdemos",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -135,18 +135,20 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/gongjurui/winiu/eggdemos/app/public",
+      "dir": "/Users/gongjurui/woniu/eggdemos/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/gongjurui/winiu/eggdemos/app/view",
+      "root": "/Users/gongjurui/woniu/eggdemos/app/view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
     },
     "nunjucks": {
       "autoescape": true,
@@ -157,7 +159,7 @@
     },
     "env": "local",
     "name": "eggdemos",
-    "keys": "<String len: 0>",
+    "keys": "<String len: 9>",
     "proxy": false,
     "maxIpsCount": 0,
     "maxProxyCount": 0,
@@ -188,9 +190,9 @@
         "egg-bin": "^4.14.0"
       }
     },
-    "baseDir": "/Users/gongjurui/winiu/eggdemos",
+    "baseDir": "/Users/gongjurui/woniu/eggdemos",
     "HOME": "/Users/gongjurui",
-    "rundir": "/Users/gongjurui/winiu/eggdemos/run",
+    "rundir": "/Users/gongjurui/woniu/eggdemos/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -222,7 +224,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/gongjurui/winiu/eggdemos/logs/eggdemos",
+      "dir": "/Users/gongjurui/woniu/eggdemos/logs/eggdemos",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -285,15 +287,13 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [
-      "gzip"
-    ],
-    "gzip": {
-      "threshold": 1024
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
     },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware"
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares"
   },
   "plugins": {
     "session": {
@@ -303,8 +303,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -316,8 +316,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-security@2.7.1@egg-security",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -329,8 +329,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -342,8 +342,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -353,8 +353,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -364,8 +364,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -375,8 +375,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-schedule@3.6.4@egg-schedule",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -388,8 +388,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-multipart@2.9.1@egg-multipart",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-multipart",
       "version": "2.9.1"
     },
     "development": {
@@ -403,8 +403,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-development@2.4.3@egg-development",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -416,8 +416,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -427,8 +427,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -438,8 +438,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg@2.25.0@egg/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "/Users/gongjurui/woniu/eggdemos/node_modules/egg/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -452,8 +452,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gongjurui/winiu/eggdemos/config/plugin.js",
-      "path": "/Users/gongjurui/winiu/eggdemos/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "from": "/Users/gongjurui/woniu/eggdemos/config/plugin.js",
+      "path": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
     }
   }
