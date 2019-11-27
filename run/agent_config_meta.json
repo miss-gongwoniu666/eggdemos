@@ -13,6 +13,10 @@
     "cache": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-view/config/config.default.js"
   },
+  "middleware": "/Users/gongjurui/woniu/eggdemos/config/config.default.js",
+  "forbiddenIp": {
+    "ip": "/Users/gongjurui/woniu/eggdemos/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-session/config/config.default.js",
     "key": "/Users/gongjurui/woniu/eggdemos/node_modules/egg-session/config/config.default.js",

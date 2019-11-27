@@ -3,11 +3,12 @@ const zlib = require('zlib');
 
 module.exports = options => {
     return async function gzip(ctx, next) {
+        console.log('gzip', 111);
         await next();
-
+        console.log('gzip', 222);
         // 后续中间件执行完成后将响应体转换成 gzip
         let body = ctx.body;
-        console.log('ctx.body', ctx.body);
+        // console.log('ctx.body', ctx.body);
         if (!body) return;
         console.log('ctx.length', ctx.length);
 
@@ -19,7 +20,7 @@ module.exports = options => {
         const stream = zlib.createGzip();
         stream.end(body);
         ctx.body = stream;
-        console.log(stream, '压缩之后');
+        // console.log(stream, '压缩之后');
         ctx.set('Content-Encoding', 'gzip');
     };
 };

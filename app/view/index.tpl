@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Hacker News</title>
+    <title>eggdemo</title>
   </head>
   <body>
     <a href='/news'>welcome to eggjs, 点击查看信息 /news </a>

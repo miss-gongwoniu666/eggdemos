@@ -1,9 +1,0 @@
-2019-11-26 17:53:46,094 ERROR 4576 nodejs.ClusterClientNoResponseError: client no response in 916423ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gongjurui/woniu/eggdemos/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:498:11)
-    at tryOnTimeout (timers.js:323:5)
-    at Timer.listOnTimeout (timers.js:290:5)
-name: "ClusterClientNoResponseError"
-pid: 4576
-hostname: gongjuruideMacBook-Pro.local
-
