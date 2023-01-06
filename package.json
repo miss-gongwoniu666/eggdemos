@@ -19,6 +19,6 @@
     "zlib": "^1.0.5"
   },
   "devDependencies": {
-    "egg-bin": "^4.14.0"
+    "egg-bin": "^4.20.0"
   }
 }
